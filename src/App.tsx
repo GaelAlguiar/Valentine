@@ -22,10 +22,10 @@ function App() {
   const [fondoAudio] = useState(new Audio(fondo));
 
   useEffect(() => {
-    fondoAudio.loop = true; // Repetir el sonido en bucle
-    fondoAudio.play(); // Comenzar la reproducción
+    fondoAudio.loop = true;
+    fondoAudio.play();
     return () => {
-      fondoAudio.pause(); // Pausar el audio al desmontar el componente
+      fondoAudio.pause();
     };
   }, [fondoAudio]);
 
