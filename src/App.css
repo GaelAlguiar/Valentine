@@ -1,0 +1,44 @@
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  padding: 1rem;
+}
+
+.mensaje {
+  margin-bottom: 20px;
+}
+
+.siBoton {
+  background-color: rgb(0, 129, 0);
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  gap: 10px;
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+.noBoton {
+  background-color: rgb(216, 1, 1);
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  gap: 10px;
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+.texto {
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.mensaje {
+  font-size: 16px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
